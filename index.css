@@ -29,14 +29,17 @@ html {
     line-height: 14pt;
 }
 main {
-    display: grid;
-    place-content: center;
-    height: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    gap: 1rem;
 }
 h1, address, a {
     all: unset;
+}
+address > a:first-child {
+    margin-top: 1rem;
 }
 a:hover {
     cursor: pointer;
