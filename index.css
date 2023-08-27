@@ -38,7 +38,7 @@ main {
 h1, address, a {
     all: unset;
 }
-address > a:first-child {
+address > p:first-child {
     margin-top: 1rem;
 }
 a:hover {
