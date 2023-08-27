@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "Garamond Bold";
+    src: url("assets/ttf/GARABD.TTF") format("truetype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Garamond Italic";
+    src: url("assets/ttf/GARAIT.TTF") format("truetype");
+    font-style: italic;
+}
+@font-face {
+    font-family: "Garamond";
+    src: url("assets/ttf/GARA.TTF") format("truetype");
+    font-weight: normal;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+    font-family: Garamond, system-ui, sans-serif;
+    font-size: 12pt;
+    line-height: 14pt;
+}
+main {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    text-align: center;
+    gap: 1rem;
+}
+h1, address, a {
+    all: unset;
+}
+a:hover {
+    cursor: pointer;
+}
+address a {
+    display: block;
+}
